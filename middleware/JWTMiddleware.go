@@ -1,12 +1,11 @@
 package middleware
 
 import (
-	""
 	"fmt"
-	"github.com/rahmanfadhil/gin-bookstore/service"
-	"net/http"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	"github.com/menty44/ordr/service"
+	"net/http"
 )
 
 func AuthorizeJWT() gin.HandlerFunc {

@@ -1,4 +1,5 @@
-module github.com/rahmanfadhil/gin-bookstore
+//module github.com/rahmanfadhil/gin-bookstore
+module github.com/menty44/ordr
 
 go 1.14
 
